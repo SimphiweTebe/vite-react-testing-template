@@ -1,0 +1,14 @@
+.formWrapper {
+  position: relative;
+  display: flex;
+  gap: 10px;
+
+  input {
+    flex: 1;
+    height: 30px;
+  }
+
+  button {
+    min-width: 90px;
+  }
+}

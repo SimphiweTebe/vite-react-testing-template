@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react'
 import App from './App'
 
-it('should render App component', ()=> {
+it('should render App container', ()=> {
   render(<App />)
-  const message = screen.queryByText(/Hello World/i)
-  expect(message).toBeVisible()
+  const appContainer = screen.getByTestId('container')
+  expect(appContainer).toBeInTheDocument()
 })

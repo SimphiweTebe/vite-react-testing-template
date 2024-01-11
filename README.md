@@ -1,4 +1,6 @@
-# React + TypeScript + Vitest + React testing library
+# React + TypeScript + Vitest + RTL Boilerplate
 
-- Run `yarn add` to install modules
-- Run `yarn dev` to start in develop mode
+- To install modules run `yarn add`
+- Run `yarn dev` to start the development server 
+- To start test suite use `yarn test`
+- For test coverage run `yarn coverage`
